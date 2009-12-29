@@ -33,17 +33,27 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!-- get project title  -->
 <!-- own website starts here, the following may be changed as you like -->
 
-<?php if ($handle=fopen('http://'.$domain.'/export/projtitl.php?group_name='.$group_name,'r')){
-$contents = '';
-while (!feof($handle)) {
-	$contents .= fread($handle, 8192);
-}
-fclose($handle);
-echo $contents; } ?>
+<h1>Welcome to the itertools project</h1>
+<p>
+The 'itertools' package provides a variety of functions used to
+create iterators.
+</p>
 
-<!-- end of project description -->
-
-<p> No content added. </p>
+<h2>Functions included in itertools:</h2>
+<p>
+<ul>
+  <li>chain - chain multiple iterators together into one iterator</li>
+  <li>enumerate - create an enumeration from an iterator</li>
+  <li>ihasNext - add a hasNext method to an iterator</li>
+  <li>ifilter - only include values that evaluate true</li>
+  <li>ifilterfalse - only include values that evaluate false</li>
+  <li>ilimit - limit, or truncate, an iterator</li>
+  <li>irep - create a repeating iterator</li>
+  <li>izip - zip together multiple iterators</li>
+  <li>product - take the cartesian product of multiple iterators</li>
+  <li>recycle - recycle an iterator</li>
+</ul>
+</p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
