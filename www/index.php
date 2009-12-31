@@ -47,6 +47,7 @@ Together, they simplify many programming tasks.
 <ul>
   <li>chain: chain multiple iterators together into one iterator</li>
   <li>enumerate: create an enumeration from an iterator</li>
+  <li>ichunk: create lists of values from an iterator to aid manual chunking</li>
   <li>ihasNext: add a hasNext method to an iterator</li>
   <li>ifilter: only return values for which a predicate function returns true</li>
   <li>ifilterfalse: only return values for which a predicate function returns false</li>
