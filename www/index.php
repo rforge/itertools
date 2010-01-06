@@ -43,6 +43,12 @@ The 'isplit' functions were inspired by functions in the 'snow' package,
 and are particularly useful for parallel computing tasks.
 </p>
 <p>
+There are also several utility functions included that were contributed
+by Hadley Wickham that aid in writing iterators.  These include 'is.iterator',
+'end_iterator', 'iteration_has_ended', and 'new_iterator'.
+Thanks, Hadley!
+</p>
+<p>
 This package is intended to be used with the 'foreach' package,
 which has excellent support for iterators.
 Used together, they can simplify many programming tasks.
@@ -66,6 +72,10 @@ Used together, they can simplify many programming tasks.
   <li>izip: zip together multiple iterators</li>
   <li>product: zip together multiple iterators in cartesian product fashion</li>
   <li>recycle: recycle values from an iterator repeatedly</li>
+  <li>is.iterator: indicates if an object is an iterator</li>
+  <li>end_iteration: throws an exception to signal end of iteration</li>
+  <li>iteration_has_ended: tests an exception to see if iteration has ended</li>
+  <li>new_iterator: creates a new iterator object</li>
 </ul>
 </p>
 
