@@ -35,16 +35,26 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 <h1>Welcome to the itertools project</h1>
 <p>
-The 'itertools' package provides a variety of functions used to create iterators.
+The 'itertools' package provides a variety of functions used to create iterators,
+as defined by REvolution Computing's 'iterators' package.
 It is strongly inspired by the Python itertools module, and includes a
-number of functions of the same name.  It is intended to be used with the
-'foreach' package, which has excellent support for iterators.
-Together, they simplify many programming tasks.
+number of functions of the same name.
+The 'isplit' functions were inspired by functions in the 'snow' package,
+and are particularly useful for parallel computing tasks.
+</p>
+<p>
+This package is intended to be used with the 'foreach' package,
+which has excellent support for iterators.
+Used together, they can simplify many programming tasks.
 </p>
 
 <h2>Functions included in itertools:</h2>
 <p>
 <ul>
+  <li>isplitVector: splits, or slices, a vector into shorter segments</li>
+  <li>isplitCols: splits a matrix column-wise</li>
+  <li>isplitRows: splits a matrix row-wise</li>
+  <li>isplitIndices: iterator over 'chunks' of indices from 1 to n</li>
   <li>chain: chain multiple iterators together into one iterator</li>
   <li>enumerate: create an enumeration from an iterator</li>
   <li>ichunk: create lists of values from an iterator to aid manual chunking</li>
