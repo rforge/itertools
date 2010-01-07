@@ -60,7 +60,7 @@ Used together, they can simplify many programming tasks.
   <li>isplitVector: splits, or slices, a vector into shorter segments</li>
   <li>isplitCols: splits a matrix column-wise</li>
   <li>isplitRows: splits a matrix row-wise</li>
-  <li>isplitIndices: iterator over 'chunks' of indices from 1 to n</li>
+  <li>isplitIndices: iterate over 'chunks' of indices from 1 to n</li>
   <li>chain: chain multiple iterators together into one iterator</li>
   <li>enumerate: create an enumeration from an iterator</li>
   <li>ichunk: create lists of values from an iterator to aid manual chunking</li>
