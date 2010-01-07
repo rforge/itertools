@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!-- get project title  -->
 <!-- own website starts here, the following may be changed as you like -->
 
-<h1>Welcome to the itertools project</h1>
+<h1>Welcome to the Iterator Tools project</h1>
 <p>
 The 'itertools' package provides a variety of functions used to create iterators,
 as defined by REvolution Computing's 'iterators' package.
