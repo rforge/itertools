@@ -69,7 +69,8 @@ Used together, they can simplify many programming tasks.
   <li>ifilterfalse: only return values for which a predicate function returns false</li>
   <li>ilimit: limit, or truncate, an iterator</li>
   <li>ireadBin: create an iterator to read a binary connection</li>
-  <li>irep: create a repeating iterator</li>
+  <li>irep: an iterator version of the rep function</li>
+  <li>irepeat: a simple repeating value iterator</li>
   <li>izip: zip together multiple iterators</li>
   <li>product: zip together multiple iterators in cartesian product fashion</li>
   <li>recycle: recycle values from an iterator repeatedly</li>
