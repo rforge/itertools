@@ -74,6 +74,8 @@ Used together, they can simplify many programming tasks.
   <li>izip: zip together multiple iterators</li>
   <li>product: zip together multiple iterators in cartesian product fashion</li>
   <li>recycle: recycle values from an iterator repeatedly</li>
+  <li>irecord: record values issued by an iterator</li>
+  <li>ireplay: return an iterator that replays values recorded in a file</li>
   <li>is.iterator: indicates if an object is an iterator</li>
   <li>end_iteration: throws an exception to signal end of iteration</li>
   <li>iteration_has_ended: tests an exception to see if iteration has ended</li>
